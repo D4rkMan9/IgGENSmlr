@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stories Generator</title>
+        <link rel="icon" href="iggen_favicon.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="iggen_styles.css">
+        <script src="iggen_script.js"></script>
+        <link rel="stylesheet" href="iggen_fonts.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+    </head>
+    <body>
+        <header>
+            <h1>smlr stories generator</h1>
+            <div class="link_container">
+                <a href="https://www.instagram.com/similaralamuerte/" >IG</a>
+                <a href="https://similaralamuerte.empretienda.com.ar/" >STORE</a>
+                <a href="https://github.com/D4rkMan9" >GIT</a>
+            </div>
+            
+        </header>
+        
+        
+        <div id="captura_preview">
+            <p id="content_preview">Ingrese un texto.</p>
+        </div>
+
+        <div class="data_container">
+
+            <div class="button_container">
+                <button id="submit" onclick=generar_cap() onclick=cambiar_size()>Generar</button>
+    
+                <button onclick="capturar()">Guardar</button>
+            </div>
+    
+            <div class="input_container">
+                <p>Texto: <input id="texto" type="text"></p>
+                <p>Text Size:<input id="texto_size"" type="number"></p>
+            </div>
+
+        </div>
+        
+        
+        
+    </body>
+</html>

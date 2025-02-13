@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family:"IBM Plex Mono" ;
+    font-weight: 300;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    background: black;
+    color: white;
+}
+
+header{
+    background: rgba(191, 28, 28, 0);
+    margin: 0;
+    width: 100%;
+    height: 150px;
+    text-align: left;
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+h1, a {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px;
+    display: inline-block;
+    transition: text-shadow 1s;
+    text-decoration: none;
+    color: white;
+}
+
+.link_container{
+    
+    display: inline-block;
+    
+    
+}
+
+h1:hover, a:hover {
+    text-shadow: 0 0 10px  rgba(255, 255, 255);
+    
+}
+
+
+
+#captura_preview{
+    display: flex;
+    width: 360px;
+    height: 640px;
+    background: rgb(25,25,25);
+background: linear-gradient(10deg, rgba(25,25,25,1) 0%, rgb(35, 35, 35) 100%);
+    justify-content: center;
+    padding: 150/3px;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-wrap: pretty;
+    transition: box-shadow 1s;
+    
+}
+
+#captura_preview:hover{
+    box-shadow: 0 0 200px 75px rgba(255, 255, 255, 0.2);
+}
+
+
+#content_preview{
+    color: white;
+    font-size: 45px;
+    transform: scale(80%);
+    text-align: left;
+}
+
+button{
+    width: 150px;
+    height: 57px;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-family:"IBM Plex Mono" ;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: box-shadow 1s;
+
+
+}
+button:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+
+input{
+    height: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    transition: box-shadow 1s;
+    width: 100px;
+
+}  
+
+input:focus:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    
+}
+
+.input_container {
+    
+    width: 360px;
+    align-items: left;
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    letter-spacing: 5px;
+    box-sizing: border-box;
+    margin: 0 auto; /* Esto centrará el contenedor horizontalmente */
+}
+
+
+.button_container{
+    
+    margin: 30px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
