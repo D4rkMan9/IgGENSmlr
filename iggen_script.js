@@ -6,7 +6,7 @@ function capturar() {
     }).then(canvas => {
         let link = document.createElement("a");
         link.href = canvas.toDataURL("image/png");
-        link.download = "captura.png";
+        link.download = document.getElementById('texto').value.trim() + "_igen" + ".png";
         link.click();
     });
 }
